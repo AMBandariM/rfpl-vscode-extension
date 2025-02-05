@@ -1,9 +1,9 @@
 {
   "name": "rfpl-language-support",
-  "displayName": "RFPL Language Support",
-  "description": "this is an RFPL highlighter",
+  "displayName": "RFPL Syntax Highlighter",
+  "description": "This is an RFPL highlighter",
   "version": "0.0.1",
-  "publisher": "amir-mohammad",
+  "publisher": "rfpl-support",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -22,5 +22,9 @@
       "scopeName": "text.rfpl",
       "path": "./syntaxes/rfpl.tmLanguage.json"
     }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AMBandariM/rfpl-vscode-extension.git"
   }
 }
